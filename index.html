@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festo LOTO Tracker</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="dark-mode">
+  <header>
+    <h1>Festo LOTO Tracker</h1>
+    <p>WatchDog QR Management · <a href="https://github.com/ZuluFoxtrot-Delta/festo-loto-tracker" target="_blank">GitHub Repo</a></p>
+  </header>
+  <main>
+    <section class="qr-section">
+      <h2>QR Scan Access</h2>
+      <div class="qr-grid">
+        <div class="qr-item">
+          <img src="qr/sample-qr.png" alt="QR Code" />
+          <p><a href="pdf/sample-document.pdf" download>Download PDF</a></p>
+        </div>
+      </div>
+    </section>
+    <section class="watchdog-alerts">
+      <h2>Expiration Watchdog</h2>
+      <p>This page monitors QR-linked documents and alerts on expiration.</p>
+      <div id="watchdog"></div>
+    </section>
+  </main>
+  <footer>
+    <p>Built by ZuluFoxtrot-Delta · Powered by GitHub Pages</p>
+  </footer>
+  <script src="assets/watchdog.js"></script>
+</body>
+</html>

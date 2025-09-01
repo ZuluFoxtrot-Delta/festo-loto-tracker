@@ -1,0 +1,27 @@
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  text-align: center;
+}
+a { color: #4fc3f7; }
+.qr-section, .watchdog-alerts {
+  padding: 1rem 2rem;
+}
+.qr-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.qr-item {
+  border: 1px solid #333;
+  padding: 1rem;
+  background-color: #1e1e1e;
+}
